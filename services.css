@@ -1,0 +1,283 @@
+.life {
+    color: white;
+    font-size: 35px;
+
+}
+
+.all {
+    text-align: center;
+    font-size: 25px;
+    margin-left: 200px;
+}
+
+.all1 {
+    transition: transform 0.3s ease-out;
+}
+
+.all1:hover {
+    transform: scale(1.1);
+}
+
+.all2 {
+    transition: transform 0.3s ease-out;
+}
+
+.all2:hover {
+    transform: scale(1.1);
+}
+
+.all3 {
+    transition: transform 0.3s ease-out;
+}
+
+.all3:hover {
+    transform: scale(1.1);
+}
+
+.all4 {
+    transition: transform 0.3s ease-out;
+}
+
+.all4:hover {
+    transform: scale(1.1);
+}
+
+.every {
+    color: white;
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+.every2 {
+    color: white;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.sea {
+    border-radius: 10px;
+}
+
+.text-center {
+    margin-top: 30px;
+}
+
+.our {
+    background-color: bisque;
+    margin-top: 110px;
+    font-size: 20px;
+    color: black;
+}
+
+.hi {
+    margin-top: 0px;
+    text-align: center;
+
+}
+
+.ji {
+    display: inline-flex;
+    gap: 30px;
+    vertical-align: middle;
+    margin-top: 70px;
+}
+
+.p1i {
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 3px rgb(197, 197, 197);
+    background-color: white;
+    height: 200px;
+    width: 350px;
+    font-size: 17px;
+    align-content: center;
+    animation: float 1s ease-in-out infinite alternate;
+    text-decoration: none;
+    border: 1px solid #c90012;
+}
+
+.b1 {
+    font-size: 30px;
+    text-align: left;
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 10px;
+
+}
+
+
+.p2i {
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 3px rgb(197, 197, 197);
+    height: 200px;
+    width: 350px;
+    font-size: 17px;
+    align-content: center;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid #c90012;
+}
+
+.p3i {
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 3px rgb(197, 197, 197);
+    height: 200px;
+    width: 350px;
+    font-size: 17px;
+    align-content: center;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid #c90012;
+}
+
+.n {
+    font-size: 40px;
+    color: rgb(1, 1, 48);
+    font-weight: bold;
+}
+
+.p1i {
+    transition: transform 0.3s ease-out;
+}
+
+.p1i:hover {
+    transform: scale(1.1);
+    background-color: #f73646;
+    color: white;
+}
+
+.p2i {
+    transition: transform 0.3s ease-out;
+}
+
+.p2i:hover {
+    transform: scale(1.1);
+    background-color: #f73646;
+    color: white;
+}
+
+.p3i {
+    transition: transform 0.3s ease-out;
+}
+
+.p3i:hover {
+    transform: scale(1.1);
+    background-color: #f73646;
+    color: white;
+}
+
+.hi h6 {
+    font-weight: bold;
+    font-size: 25px;
+}
+.ready {
+    background-color: cadetblue;
+    margin-top: 100px;
+    display: inline-flex;
+}
+
+.com{
+    margin-top: 90px;
+}
+.ready h6 {
+    font-size: 40px;
+    margin-left: 130px;
+}
+.ready p{
+    margin-left: 130px;
+}
+.but{
+    margin-top: 20px;
+    margin-left: 400px; 
+    padding: 10px; 
+    height: 50px;
+}
+.red{
+    border: 1px solid rgb(82, 81, 81);
+    margin-top: 20px;
+    font-size: 20px;
+}
+.foot {
+    background-color: rgb(1, 1, 48);
+    height: 450px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.live,
+.company,
+.resources,
+.legal {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.live {
+    text-align: left;
+    margin-top: 90px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0px;
+    text-decoration: none;
+}
+
+.live h3 {
+    color: #b90015;
+}
+
+.live p {
+    color: white;
+}
+
+.company {
+    margin-top: 80px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 40px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.company h3 {
+    color: white;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.resources {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50px;
+    text-decoration: none;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.resources h3 {
+    color: white;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+
+.legal {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50px;
+    margin-top: 15px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.legal h3 {
+    color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.copy{
+    border: 1px solid white;
+    margin-top: -40px;
+    text-align: center;
+}
+.copy p{
+    color: white;
+    font-size:16px;
+}
