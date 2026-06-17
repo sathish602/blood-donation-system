@@ -1,0 +1,275 @@
+.navbar-brand{
+    color: red;
+
+}
+.navbar-brand1{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+.p1{
+    font-size: 15px;
+    margin-left: 25px;
+    font-weight: 500;
+    
+}
+.h{
+    margin-top: 55px;
+}
+.hi {
+    margin-top: -30px;
+    text-align: center;
+
+}
+
+.ji {
+    display: inline-flex;
+    gap: 30px;
+    vertical-align: middle;
+    margin-top: 70px;
+}
+
+.p1i {
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 3px rgb(197, 197, 197);
+    background-color: white;
+    height: 150px;
+    width: 300px;
+    font-size: 17px;
+    align-content: center;
+    animation: float 1s ease-in-out infinite alternate;
+    text-decoration: none;
+}
+
+.b1 {
+    font-size: 20px;
+    width: 60px;
+}
+.gan{
+    text-align: center;
+    margin-top: 250px;
+    border-radius: 6px;
+    background-color: red;
+    height: 45px;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+.activer{
+   font-size: 20px;
+   text-align: left;
+   margin-left: -90px;
+   font-weight: bold;
+}
+.activer1{
+   font-size: 20px;
+   text-align: left;
+   margin-left: -140px;
+    font-weight: bold;
+}
+.p1i p{
+    margin-left: -90px;
+
+}
+.p2i p{
+    margin-left: -230px;
+}
+.p3i p{
+   margin-left: -230px;
+}
+.cut{
+    margin-left: -80px;
+}
+.cut1{
+    margin-left: -60px;
+}
+.p2i {
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 3px rgb(197, 197, 197);
+    height: 150px;
+    width: 300px;
+    font-size: 17px;
+    align-content: center;
+    text-decoration: none;
+    background-color: white;
+}
+
+.p3i {
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 3px rgb(197, 197, 197);
+    height: 150px;
+    width: 300px;
+    font-size: 17px;
+    align-content: center;
+    text-decoration: none;
+    background-color: white;
+}
+
+.n {
+    font-size: 40px;
+    color: rgb(1, 1, 48);
+    font-weight: bold;
+}
+
+.p1i {
+    transition: transform 0.3s ease-out;
+}
+
+.p1i:hover {
+    transform: scale(1.1);
+}
+
+.p2i {
+    transition: transform 0.3s ease-out;
+}
+
+.p2i:hover {
+    transform: scale(1.1);
+}
+
+.p3i {
+    transition: transform 0.3s ease-out;
+}
+
+.p3i:hover {
+    transform: scale(1.1);
+}
+.need{
+    background-color: rgb(173, 3, 3);
+    margin-top: 80px;
+    border-radius: 10px;
+    height: 200px;
+}
+.need h2{
+    font-size: 60px;
+    color: white;
+    padding: 30px;
+}
+.need p{
+    margin-top: -20px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.new{
+    margin-left: 900px;
+    background-color: white;
+    border-radius: 7px;
+    margin-top: -120px;
+      height: 40px;
+    width: 300px;
+    text-align: center;
+}
+.new1{
+    text-decoration: none;
+    color: red;
+    font-weight: 500;
+    padding: 20px;
+    font-size: 25px;
+}
+.table{
+    margin-top: 150px;
+
+}
+.table h3{
+    color: red;
+}
+.form{
+    margin-top: 60px;
+    display: flex;
+    gap: 50px;
+}
+.form1{
+    background-color: rgb(249, 215, 221);
+    height: 290px;
+    width: 500px;
+    vertical-align: middle;
+    margin-left: 100px;
+    border-radius: 10px;
+    border: 1px solid lightpink;
+    box-shadow: 0px 0px 0px 1px grey;
+    margin-top: 30px;
+}
+.form1 h3{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.form1 p{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.ne{
+     margin-left: 20px;
+    margin-top: 20px;
+}
+.mar{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 530px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.mes{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 530px;
+}
+.m{
+    margin-top: 20px;
+    border: 1px solid black;
+}
+.arrow{
+    width: 360px;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+.t{
+    font-size: 10px;
+    text-align: center;
+}
+.tip{
+    margin-left: 20px;
+}
+.form2{
+    height: 300px;
+    width: 500px;
+    vertical-align: middle;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.name{
+    border-radius: 5px;
+}
+.man{
+      border-radius: 20px;
+}
+.one{
+    margin-top: -90px;
+    border-radius: 0px;
+}
+.my{
+    margin-left: 20px;
+}
+.project{
+    display: flex;
+    gap: 100px;
+}
+.show1{
+    margin-left: 400px;
+}
+.table1 p h3{
+    text-indent: 50px;
+}
+.foot{
+    background-color: rgb(239, 238, 238);
+    height: 90px;
+    display: flex;
+    padding: 30px;
+    margin-top: -15px;
+    gap: 90px;
+}
+.foot1{
+    color: red;
+    font-size: 20px;
+}

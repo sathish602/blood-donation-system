@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>home</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="request.css">
+        <!-- Bootstrap Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    </head>
+
+<body>
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Create Blood Request</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title navbar-brand1" id="offcanvasNavbarLabel">LifeStream Admin</h5><br>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <p class="p1">blood management</p>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="donor.html">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="request.html">Request</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                    <div class="gan">
+                        <p class="nav-item ">
+                            <a class="nav-link active" href="home.html">Back Home</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <hr style="border:1px solid red" class="h">
+    <div class="container req">
+        <h1 class="gov">New Blood Request</h1>
+        <p>Submit a clinical request for emergency blood units.</p>
+        <hr style="border:1px solid black" class="h">
+        <p class="san">PATIENT INFORMATION</p>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label sans">Patient Full Name</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1"
+                placeholder="enter patient's full legal name">
+        </div>
+        <hr style="border:1px solid black" class="h">
+        <p class="san">REQUIREMENTS DETAILS</p>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label sans">Blood Type Required</label>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Select Blood Group</option>
+                <option>O+</option>
+                <option>B+</option>
+                <option>AB+</option>
+                <option>O-</option>
+                <option>B-</option>
+                <option>AB-</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label sans">Quantity(Units)</label>
+            <input type="number" class="form-control" id="exampleFormControlInput1"
+                placeholder="Number of units needed">
+        </div>
+        <hr style="border:1px solid black" class="h">
+        <p class="san">LOCATION & TIMING</p>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label sans">Hospital Name</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1"
+                placeholder="e.g. Central Medical Center">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label sans">Hospital Address</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                placeholder="Full street address and floor/room if applicable"></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label sans">Required Date</label>
+            <input type="date" class="form-control" id="exampleFormControlInput1">
+        </div>
+        <div class="hi container-fluid">
+            <div class="ji">
+                <p class="san1">! SET PRIORITY LEVEL</p>
+                <a class="p1i"><span class="n bi-droplet-half b1" style="color: red;"> Normal</span>
+                </a>
+                <a class="p2i"><span class="n bi bi-truck b1"> Urgent</span>
+                </a>
+                <a class="p3i"><span class="n  bi bi-heart-pulse b1" style="color: red;"> Critical</span>
+                </a>
+            </div>
+        </div>
+        <label for="exampleFormControlTextarea1" class="form-label sans click">Clinical Notes/Description</label>
+        <textarea class="form-control click1 " id="exampleFormControlTextarea1" rows="3"
+            placeholder="Provide any additional patient history or specific blood component needs..."></textarea>
+        <hr style="border:1px solid red" class="h">
+        <button type="button" class="btn btn-danger arrow">
+            Boardcast Request &#8594;
+        </button>
+        <div class="t">
+            <p><span>&#128274;</span>Secure submission for clinical authorized personnel only.</p>
+        </div>
+    </div>
+    <div class="container req1">
+        <h5 style="color: rgb(3, 3, 147);">Priority Impact</h5>
+        <p>Selecting<span style="color: red;">Critical</span>bypasses standard queue times and sends instant SMS/App push notifications to verified donors within immediate hospital proximity. </p>
+    </div>
+ <hr style="border:1px solid red" class="h">
+    <div class="container-fluid foot">
+        <p class="foot1">LifeStream</p>
+        <p class="foot2">© 2026 Life Stream Emergency Blood Management . All Rights Reserved.</p>
+        <p class="foot3">Help Center</p>
+        <p class="foot4">Terms</p>
+        <p class="foot5">Privacy</p>
+    </div>
+</body>
+
+</html>

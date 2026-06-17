@@ -1,0 +1,223 @@
+.navbar-brand {
+    color: red;
+
+}
+
+.navbar-brand1 {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.p1 {
+    font-size: 15px;
+    margin-left: 25px;
+    font-weight: 500;
+
+}
+
+.h {
+    margin-top: 55px;
+}
+
+.hi {
+    margin-top: -30px;
+    text-align: center;
+
+}
+
+.ji {
+    display: inline-flex;
+    gap: 30px;
+    vertical-align: middle;
+    margin-top: 70px;
+}
+
+.p1i {
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 3px rgb(197, 197, 197);
+    background-color: white;
+    height: 150px;
+    width: 300px;
+    font-size: 17px;
+    align-content: center;
+    animation: float 1s ease-in-out infinite alternate;
+    text-decoration: none;
+}
+
+.b1 {
+    font-size: 20px;
+    width: 60px;
+}
+
+.gan {
+    text-align: center;
+    margin-top: 250px;
+    border-radius: 6px;
+    background-color: red;
+    height: 45px;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+
+.req {
+    border: 1px solid red;
+    border-radius: 10px;
+    width: 700px;
+    height: 1500px;
+    box-shadow: 0px 0px 2px 3px rgb(236, 233, 233);
+}
+
+.gov {
+    color: red;
+    padding: 50px;
+    margin-left: -50px;
+}
+
+.req p {
+    margin-top: -40px;
+}
+
+.san {
+    font-weight: 600;
+    color: grey;
+}
+
+.san1 {
+    font-weight: 600;
+    color: grey;
+    margin-left: -130px;
+
+}
+
+.sans {
+    color: black;
+    font-weight: 600;
+}
+
+.hi {
+    margin-top: 0px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.ji {
+    display: inline-flex;
+    gap: 30px;
+    vertical-align: middle;
+    margin-top: 90px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.p1i {
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 3px rgb(236, 233, 233);
+    background-color: white;
+    height: 60px;
+    width: 110px;
+    font-size: 17px;
+    align-content: center;
+    animation: float 1s ease-in-out infinite alternate;
+    text-decoration: none;
+    margin-left: -50px;
+    border: 1px solid red;
+}
+
+.p2i {
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 3px rgb(236, 233, 233);
+    height: 60px;
+    width: 110px;
+    font-size: 17px;
+    align-content: center;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.p3i {
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 3px rgb(236, 233, 233);
+    height: 60px;
+    width: 110px;
+    font-size: 17px;
+    align-content: center;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid red;
+}
+
+.n {
+    font-size: 20px;
+    color: rgb(1, 1, 48);
+    font-weight: 500;
+}
+
+.p1i {
+    transition: transform 0.3s ease-out;
+}
+
+.p1i:hover {
+    transform: scale(1.1);
+}
+
+.p2i {
+    transition: transform 0.3s ease-out;
+}
+
+.p2i:hover {
+    transform: scale(1.1);
+}
+
+.p3i {
+    transition: transform 0.3s ease-out;
+}
+
+.p3i:hover {
+    transform: scale(1.1);
+}
+
+.click {
+    margin-top: 40px;
+}
+
+.click1 {
+    margin-top: 30px;
+}
+
+.arrow {
+    width: 500px;
+    margin-left: 90px;
+    margin-top: 60px;
+    padding: 10px;
+    font-size: 20px;
+    height: 50px;
+}
+
+.t {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 50px;
+}
+.req1 {
+    border: 1px solid blue;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 3px rgb(236, 233, 233);
+    margin-top: 50px;
+    width:700px;
+}
+.foot{
+    background-color: rgb(239, 238, 238);
+    height: 90px;
+    display: flex;
+    padding: 30px;
+    margin-top: -15px;
+    gap: 90px;
+}
+.foot1{
+    color: red;
+    font-size: 20px;
+}

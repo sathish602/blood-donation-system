@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>home</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="donor.css">
+        <!-- Bootstrap Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    </head>
+
+<body>
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Welcome back,Donor</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title navbar-brand1" id="offcanvasNavbarLabel">LifeStream Admin</h5><br>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <p class="p1">blood management</p>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="donor.html">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="request.html">Request</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                    <div class="gan">
+                        <p class="nav-item ">
+                            <a class="nav-link active" href="home.html">Back Home</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <hr style="border:1px solid red" class="h">
+    <div class="hi container-fluid ">
+        <div class="ji">
+            <div class="p1i">
+                <span class="activer">Active Requests</span> <span class="bi bi-heart-pulse b1"></span>
+                <p><span style="color: red; font-size: 30px; font-weight:400;">02</span><span style="color: red;">+1from
+                        last week</span><br></p>
+                <span class="cut">Currently seeking donors </span>
+            </div>
+            <div class="p2i">
+                <span class="activer">Pending Approval</span> <span class="bi bi-droplet-half b1"></span>
+                <p><span style="font-size: 30px; font-weight:400;">01</span><br></p>
+                <span class="cut">In administrative review</span>
+            </div>
+            <div class="p3i">
+                <span class="activer1">Completed</span> <span class="bi bi-truck b1"></span>
+                <p><span style="font-size: 30px; font-weight:400;">14</span><br></p>
+                <span class="cut1">Lives impacted and fulfilled</span>
+            </div>
+        </div>
+    </div>
+    <div class="need container-fluid">
+        <h2>Need Urgent Assistance?</h2>
+        <p>Instantly broadcast your blood request to our network of 5,000+
+            <br>verified donors in your vicinity.
+        </p>
+    </div>
+    <div class="new conatiner">
+        <a href="request.html" class="new1">+ Create New Request</a>
+    </div>
+    <div class="table container-fluid">
+        <h3 class="my">My Active Requests</h3>
+        <p class="my">Real-time tracking of your life-saving requests</p>
+        <div class="one container-fluid">
+            <table class="table ">
+                <thead>
+                    <tr>
+                        <th scope="col">Request ID</th>
+                        <th scope="col">Blood Group</th>
+                        <th scope="col">Initiated Date</th>
+                        <th scope="col">Live Status</th>
+                        <th scope="col">Actions</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    <tr>
+                        <th scope="row">#REQ-8821</th>
+                        <td style="color: red;">O positive(O+)</td>
+                        <td>Oct 12,2024</td>
+                        <td style="color: green;">Approved & Active</td>
+                        <td>
+                            <button class="btn view" style="border-color: red;">👁</button>
+                            <button class="btn edit" style="border-color: black;">✏</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#REQ-8794</th>
+                        <td style="color: red;">B Nagative(B-)</td>
+                        <td>Oct 10,2024</td>
+                        <td style="color: brown;">Awaiting Approval</td>
+                        <td>
+                            <button class="btn view" style="border-color: red;">👁</button>
+                            <button class="btn edit" style="border-color: black;">✏</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#REQ-8560</th>
+                        <td style="color: red;">A Positive(A+)</td>
+                        <td>Oct 5,2024</td>
+                        <td style="color: blue;">Fulfilled</td>
+                        <td>
+                            <button class="btn view" style="border-color: red;">👁</button>
+                            <button class="btn edit" style="border-color: black;">✏</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="project container">
+                <p class="show">showing 3 of 24 requests</p>
+                <p class="show1">
+                <nav aria-label="Page navigation example bg-danger">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="form continer">
+        <div class="form1">
+            <h3 style="color: red;">Smart Request Tip</h3>
+            <p><span style="color: red;">Boost reach by 40%:</span>Including the specific hospital wing and department
+                in your description helps donors navigate faster.Our data shows requests with detailed locations are
+                fulfilled significantly quicker. </p>
+            <a href="#" style="color: red;" class="tip">Learn more best practices&#8594;</a>
+        </div>
+        <div class="form2">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="1600">
+                        <img src="https://wallpaperaccess.com/full/6553564.jpg" class="d-block w-100 man" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1500">
+                        <img src="https://canvas4everyone.com/cdn/shop/articles/DALL_E_2024-07-26_13.41.23_-_A_scene_showing_a_diverse_group_of_people_donating_blood_at_a_blood_donation_center._The_donors_are_seated_comfortably_each_with_a_healthcare_profess.webp?v=1721997713&width=1100"
+                            class="d-block w-100 man" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="https://png.pngtree.com/back_origin_pic/04/58/58/93667a2057da2636d2a99394c43de0cc.jpg"
+                            class="d-block w-100 man" height="290px" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <hr style="border:1px solid red" class="h">
+    <div class="container-fluid foot">
+        <p class="foot1">LifeStream</p>
+        <p class="foot2">© 2026 Life Stream Emergency Blood Management . All Rights Reserved.</p>
+        <p class="foot3">Help Center</p>
+        <p class="foot4">Terms</p>
+        <p class="foot5">Privacy</p>
+    </div>
+</body>
+
+</html>
