@@ -6,7 +6,7 @@
 
 .all {
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 200px;
 }
 
@@ -280,4 +280,11 @@
 .copy p{
     color: white;
     font-size:16px;
+}
+.dec{
+    text-decoration: none;
+    color: white;
+}
+.dec:hover{
+    color: red;
 }

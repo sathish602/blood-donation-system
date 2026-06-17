@@ -294,3 +294,10 @@
     font-size:16px;
 }
 
+.dec{
+    text-decoration: none;
+    color: white;
+}
+.dec:hover{
+    color: red;
+}

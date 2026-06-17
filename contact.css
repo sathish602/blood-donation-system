@@ -161,7 +161,7 @@
     font-size: 20px;
 }
 .t{
-    font-size: 10px;
+    font-size: 15px;
     text-align: center;
 }
 .form2{
@@ -313,4 +313,10 @@
     color: black;
     font-size:16px;
 }
-
+.dec{
+    text-decoration: none;
+    color: black;
+}
+.dec:hover{
+    color: red;
+}
