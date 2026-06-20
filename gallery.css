@@ -65,16 +65,13 @@
 }
 .cards{
         margin-top: 50px;
-    vertical-align: middle;
-    display:inline-flex;
+       margin-left: 20px;
 }
 .card{
-    gap: 0px;
+    gap: 10px;
     margin-top: 50px;
 }
-.sam{
-    margin-left: 100px;
-}
+
 .em{
     width: 100px;
     margin-left: 20px;
@@ -209,8 +206,6 @@
     background-color: #ffcc00;
 }
 .foot {
-    background-color: rgb(1, 1, 48);
-    height: 400px;
     text-align: center;
     margin-top: 0px;
 }
@@ -237,7 +232,7 @@
 }
 
 .live p {
-    color: white;
+    color: black;
 }
 
 .company {
@@ -250,7 +245,7 @@
 }
 
 .company h3 {
-    color: white;
+    color: black;
     margin-top: 40px;
     margin-left: 30px;
 }
@@ -265,7 +260,7 @@
 }
 
 .resources h3 {
-    color: white;
+    color: black;
     margin-top: 0px;
     margin-left: 30px;
 }
@@ -280,23 +275,22 @@
 }
 
 .legal h3 {
-    color: white;
+    color: black;
     margin-top: 30px;
     margin-left: 30px;
 }
 .copy{
-    border: 1px solid white;
-    margin-top: -40px;
+    border: 1px solid black;
+    margin-top: 40px;
     text-align: center;
 }
 .copy p{
-    color: white;
+    color: black;
     font-size:16px;
 }
-
 .dec{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .dec:hover{
     color: red;
