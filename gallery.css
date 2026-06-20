@@ -65,7 +65,10 @@
 }
 .cards{
         margin-top: 50px;
-       margin-left: 20px;
+       
+}
+.sam{
+    margin-left: 50px;
 }
 .card{
     gap: 10px;
